@@ -11,8 +11,10 @@ G = Fore.LIGHTGREEN_EX
 D = Fore.LIGHTBLACK_EX
 C = Fore.RESET
 
+os.system("cls")
+
 print(M + "[1]" + C + " Activate windows")
-print(Y + "[2]" + C + " Reset activation period")
+print(Y + "[2]" + C + " Remove watermark")
 print(G + "[3]" + C + " Upgrade windows edition" + D + " (Only for windows 11)")
 print(B + "[4]" + C + " Delete current activation key")
 print(R + "[5]" + " Exit")
